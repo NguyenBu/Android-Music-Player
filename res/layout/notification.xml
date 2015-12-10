@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#a0a0a0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/notify_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/notify_info_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/notify_image"
+        android:textColor="#000000" />
+
+    <ImageButton
+        android:id="@+id/notify_play"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="fitXY"
+        android:layout_below="@id/notify_info_text"
+        android:layout_centerHorizontal="true"
+        android:background="#0000"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+
+    <ImageButton
+        android:id="@+id/notify_next"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/notify_info_text"
+        android:layout_toRightOf="@id/notify_play"
+        android:background="@drawable/control_next" />
+
+    <ImageButton
+        android:id="@+id/notify_previous"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/notify_info_text"
+        android:layout_toLeftOf="@id/notify_play"
+        android:background="@drawable/control_previous" />
+
+</RelativeLayout>

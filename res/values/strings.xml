@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">音乐</string>
+    <string name="about">关于</string>
+    <string name="exit">退出</string>
+    <string name="music_list_button_text">所有</string>
+    <string name="music_artist_button_text">歌手</string>
+    <string name="music_album_button_text">专辑</string>
+    <string name="music_folder_button_text">位置</string>
+    <string name="about_info">\t\t此应用由第二组所有组员相互协作努力完成，主要实现了离线播放音乐功能，主要包括歌单模块、歌曲列表模块、播放控制模块、波形显示模块、通知栏模块、歌词显示模块、后台播放模块以及中断处理等模块组成，开发中主要使用了Activity、Service、BroadcastReceiver、SQLite、Intent、Mediaplayer、以及SharedPreferenced等相关的内容。\n\t\t使用说明：软件启动首先进入Splash界面，三秒后进入播放主界面，在主界面向上、下、左或者右滑动会使用不同的动画进入歌单界面，在此界面可以选择不同的类别进行歌曲的浏览和播放操作，在播放界面若点击进入列表按钮，可以进入歌曲列表界面，此界面包括歌曲的一些基本信息，当点击列表项右边的图标后，会弹出对话框显示歌曲的基本信息，若点击列表项，则开始播放当前歌曲。在主界面中触碰音乐波形可以切换显示波形的样式，当点击返回键，软件会退出播放界面，当前正在播放的音乐会切换到后台继续按列表进行播放，在播放的过程中，当出现来电或是呼出 电话时，音乐会自动暂停，当通话结束后，音乐会继续播放。如果不在需要播放时，可以进入播放界面，点击菜单按钮选择退出就可以停止播放并退出软件。</string>
+
+</resources>

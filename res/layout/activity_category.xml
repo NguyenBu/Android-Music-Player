@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/music_category_bg"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".CategoryActivity" >
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:background="#0000" />
+
+    <Button
+        android:id="@+id/all_list_button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@id/image"
+        android:paddingBottom="6dp"
+        android:layout_toLeftOf="@id/image"
+        android:background="@drawable/music_total_icon"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/music_list_button_text"
+        android:textColor="#ffff00"
+        android:shadowColor="#ff00ff"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/artist_list_button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignBottom="@id/image"
+        android:paddingBottom="6dp"
+        android:layout_toRightOf="@id/image"
+        android:background="@drawable/music_artist_icon"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/music_artist_button_text"
+        android:textColor="#ffff00"
+        android:shadowColor="#ff00ff"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/album_list_button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignLeft="@id/all_list_button"
+        android:layout_below="@id/image"
+        android:paddingBottom="6dp"
+        android:background="@drawable/music_album_icon"
+        android:gravity="bottom|center_horizontal"
+        android:text="@string/music_album_button_text"
+        android:textColor="#ffff00"
+        android:shadowColor="#ff00ff"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/folder_list_button"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignRight="@id/artist_list_button"
+        android:layout_below="@id/image"
+        android:paddingBottom="6dp"
+        android:background="@drawable/music_folder_icon"
+        android:gravity="bottom|center_horizontal"
+        android:shadowColor="#ff00ff"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="@string/music_folder_button_text"
+        android:textColor="#ffff00"
+        android:textSize="20sp" />
+
+</RelativeLayout>
